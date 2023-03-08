@@ -1,0 +1,18 @@
+div.background {
+    background: rgb(48, 7, 54) url(./img/sunrise.gif);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 800px;
+  }
+  
+  div.transbox {
+    background-color: rgba(255, 255, 255, 0.553);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    margin: 30px;
+    font-weight: bold;
+  }

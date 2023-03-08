@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(1, 63, 1);
+}
+
+.box1{
+    background-color: rgb(255, 255, 255);
+    opacity: .7;
+    padding: 25px;
+    margin: 25px;
+}

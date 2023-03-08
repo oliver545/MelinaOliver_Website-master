@@ -1,0 +1,73 @@
+.one {
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  .two {
+    position: relative;
+    animation: mymove 7s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  .three {
+    position: relative;
+    animation: mymove 8s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  .four {
+    position: relative;
+    animation: mymove 9s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  .five {
+    position: relative;
+    animation: mymove 10s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  .six {
+    position: relative;
+    animation: mymove 11s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  .seven {
+    position: relative;
+    animation: mymove 12s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  .eight {
+    position: relative;
+    animation: mymove 13s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  

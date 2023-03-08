@@ -1,0 +1,226 @@
+body {
+    font-family: "mr-eaves-modern", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.8em;
+    /*background: url(./images/gradient-bg.gif);
+    background-color: black;
+    background-size: cover;*/
+    cursor: url(./images/cursor.png) 12 12, auto;
+    margin: 0%;
+    /*padding: 25px;*/
+}
+
+/* .custom-cursor {
+    width: 32px;
+    height: 32px;
+    cursor: url(./images/cursor.png), auto;
+} could be used for images or works??*/
+
+h1, h2, h3, h4, p {
+    color:rgb(255, 255, 255)
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* main page */
+
+
+#Oliver{
+    font-family: "Mina";
+}
+
+.header {
+    padding: 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ul {
+    list-style: none;
+  }
+  
+
+.left,.right{
+    width: 50%;
+    padding: 25px;
+    /*padding:25px;*/
+}
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+    /*opacity: .5;*/
+}
+.item {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.item:hover{
+    opacity: 1.0;
+}
+
+a {
+    text-decoration: none; /* Removes underline */
+    /*color: rgb(255, 255, 255); /* Sets link color */
+    /* stransition: opacity 0.3s; /* Adds a transition effect */
+    /*opacity: 0.5;*/
+}
+a :hover {
+    cursor: url(./images/cursor\ hover.png) 12 12, pointer;
+}
+
+  
+
+.welcome{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Menu */
+
+.menuItems {
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Work */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.outerBox {
+    background-color: black;
+    background-size: cover;
+    /*height:500px;
+    width: 100%;*/
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    /* could do "fit content?" */
+}
+
+.Ex1{
+    background-color: rgb(84, 94, 67);
+    height:300px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 20px solid black;
+    padding: 10px;
+}
+
+.Ex2{
+    background-color: rgb(23, 60, 22);
+    height:300px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 20px solid black;
+    padding: 10px;
+}
+
+
+.Ex3{
+    background-color: rgb(46, 49, 107);
+    height:300px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 20px solid black;
+    padding: 10px;
+
+}
+
+.Ex1, .Ex2, .Ex3 {
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Ex1, .Ex2, .Ex3 {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.Ex1:hover, .Ex2:hover, .Ex3:hover{
+    opacity: 1.0;
+}
+
+/* other color 135,99,55*/
+
+/* Hello */
+
+.bgHello{
+    background-color: black;
+    background-size: cover;
+    
+}
+
+.helloTxT{
+    padding: 25px;
+    /*margin-top: 50px;*/
+    /*background-color: rgba(255, 255, 255, .7);*/
+    
+}
+
+/* Resume*/ 
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+}
+.resumePad{
+  margin-left: 25px;
+  margin-right: 25px;
+  max-width: 90%;
+}
+
+
+/* Conact */
+
+/* .contactPad{
+    padding:25px;
+    background-color: white;
+}
+*/
+.contact {
+    padding: 25px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, .7);
+
+}
+
+.section{
+    margin:0;
+}

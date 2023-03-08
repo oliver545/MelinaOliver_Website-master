@@ -1,0 +1,16 @@
+div {
+    width: 200px;
+    height: 150px;
+    background: rgb(67, 33, 33);
+    position: relative;
+    animation: myfirst 20s infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {background: rgb(5, 100, 37); left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: rgb(131, 5, 74); left: 200px; top: 200px;}
+    75%  {background: rgb(15, 17, 15); left: 0px; top: 200px;}
+    100% {background: rgb(3, 115, 206); left: 0px; top: 0px;}
+  }
