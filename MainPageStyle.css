@@ -160,7 +160,16 @@ html{
 
 }
 
-.Ex1, .Ex2, .Ex3 {
+.finalProject{
+    background-color: rgb(48, 4, 110);
+    height:300px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 20px solid black;
+    padding: 10px;
+}
+
+.Ex1, .Ex2, .Ex3, .finalProject {
     /*text-align: center;*/
     display: flex;
     justify-content: center;
@@ -168,12 +177,12 @@ html{
     
 }
 
-.Ex1, .Ex2, .Ex3 {
+.Ex1, .Ex2, .Ex3, .finalProject {
     opacity: 0.5;
     transition: opacity 0.5s;
 }
 
-.Ex1:hover, .Ex2:hover, .Ex3:hover{
+.Ex1:hover, .Ex2:hover, .Ex3:hover, .finalProject:hover{
     opacity: 1.0;
 }
 
